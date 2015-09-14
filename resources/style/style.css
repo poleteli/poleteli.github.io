@@ -1,3 +1,6 @@
+.page-content {
+  margin: auto;  
+}
 .mdl-card.mdl-card--wide {
   width: 900px;
 }
