@@ -1,4 +1,7 @@
 .mdl-card.mdl-card--wide {
   width: 900px;
-  padding: 5px;
+}
+.mdl-card.mdl-card--short {
+  height: 200px;
+  vertical-align: middle;
 }
