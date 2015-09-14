@@ -3,13 +3,9 @@
   margin: auto;
   margin-top: 40px;
 }
-.mdl-card.mdl-card--wide {
-  width: 900px;
-}
-.mdl-card.mdl-card--short {
+.mdl-card.mdl-card--search-form {
   height: 177px;
   min-height: 170px;
-}
-.mdl-card.mdl-card--short > * {
-  margin: auto 0;
+  width: 900px;
+  margin: auto;
 }
