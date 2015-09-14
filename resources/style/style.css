@@ -1,10 +1,15 @@
 .page-content {
-  margin: auto;  
+  max-width: 920px;
+  margin: auto;
+  margin-top: 40px;
 }
 .mdl-card.mdl-card--wide {
   width: 900px;
 }
 .mdl-card.mdl-card--short {
-  height: 200px;
-  vertical-align: middle;
+  height: 177px;
+  min-height: 170px;
+}
+.mdl-card.mdl-card--short > * {
+  margin: auto 0;
 }
