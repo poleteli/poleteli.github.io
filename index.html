@@ -29,25 +29,60 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="./resources/style/style.css">
   </head>
-  <body>
+  <body class="mdl-color--grey-100 mdl-color-text--grey-700">
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">Полетели!</span>
+          <span class="mdl-layout-title"><img src="./resources/img/ic_flight_takeoff_white_48px.svg"/> Полетели! <img src="./resources/img/ic_flight_land_white_48px.svg"/></span>
           <div class="mdl-layout-spacer"></div>
           <nav class="mdl-navigation mdl-layout--large-screen-only">
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
+            <a class="mdl-navigation__link" href="#what">Что?</a>
+            <a class="mdl-navigation__link" href="#why">Зачем?</a>
+            <a class="mdl-navigation__link" href="#where">Куда?</a>
+            <a class="mdl-navigation__link" href="#ready">Я готов!</a>
           </nav>
         </div>
       </header>
       <main class="mdl-layout__content">
         <div class="page-content">
-          <div class="mdl-card mdl-card--search-form mdl-shadow--2dp">
-            <iframe scrolling="no" width="900" height="177" frameborder="0" src="//www.travelpayouts.com/widgets/8c095e2ccff6f41ef297e8fe7c0166a9.html?v=526"></iframe>
-          </div>
+          <div id="what"></div>
+          <section class="mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <header class="mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone section__header--centered mdl-color--accent mdl-color-text--white">
+              <i class="material-icons section__icon">help_outline</i>
+            </header>
+            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text">
+                <h3>Что?</h3>
+                Как давно ты был в отпуске? Сколько сил уходит каждый день на поддержание работоспособного состояния?
+                <br>
+                Есть решение - слетай отдохнуть!
+              </div>
+              <div class="mdl-card__actions">
+                <a href="#why" class="mdl-button">Хорошо, что дальше?</a>
+              </div>
+            </div>
+          </section>
+          <div id="why"></div>
+          <section class="mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <header class="mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone section__header--centered mdl-color--accent mdl-color-text--white">
+              <i class="material-icons section__icon">help_outline</i>
+            </header>
+            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text">
+                <h3>Зачем?</h3>
+                Ну хотя бы потому, что после отдыха ты будешь чуточку счастливее :)
+              </div>
+              <div class="mdl-card__actions">
+                <a href="#where" class="mdl-button">А куда лететь-то?</a>
+              </div>
+            </div>
+          </section>
+          <div id="where"></div>
+          <section class="mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-card--search-form">
+              <iframe scrolling="no" width="900" height="177" frameborder="0" src="//www.travelpayouts.com/widgets/8c095e2ccff6f41ef297e8fe7c0166a9.html?v=526"></iframe>
+            </div>
+          </section>
         </div>
       </main>
     </div>
