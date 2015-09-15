@@ -1,7 +1,6 @@
 .page-content {
   max-width: 920px;
-  margin: auto;
-  margin-top: 48px;
+  margin: 48px auto;
 }
 .page-content section:not(:last-of-type) {
   position: relative;
@@ -29,4 +28,5 @@
   min-height: 170px;
   width: 900px;
   margin: auto;
+  background-color: transparent;
 }
